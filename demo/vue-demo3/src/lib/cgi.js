@@ -1,10 +1,10 @@
 import { ajax, jsonp } from './ajax';
 
 export default {
-  // host: 'http://api.live.nagezan.net/cgi-bin/',
+  // host: 'http://api.live.aaaa.net/cgi-bin/',
   host: 'http://116.62.28.97:9092/', // 测试地址
-  defaultHead: 'http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png',
-  // defaultHead:'http://static.live.nagezan.net/live/fb284641-a4a6-4a2f-b596-abfb49ba037c.png', 小爱默认头像
+  defaultHead: 'http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png',
+  // defaultHead:'http://static.live.aaaa.net/live/fb284641-a4a6-4a2f-b596-abfb49ba037c.png', 小爱默认头像
   init() {
     const doc = window.document;
     const docEl = doc.documentElement;
@@ -62,8 +62,8 @@ export default {
 	    header = list[i].avatar;
 	    list[i].head = {
 	      src: header,
-	      error: 'http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png',
-	      loading: 'http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png'
+	      error: 'http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png',
+	      loading: 'http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png'
 	    }
 	    
 	  }
@@ -97,16 +97,16 @@ export default {
 		})
 	},
 	list:[
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
-		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"}
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"},
+		   	{nick:'虚位以待',uid:'19541200',exp:'0',data2:'8876',avatar:"http://oneshow.img.aaaa.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png"}
 
 	]
 }
