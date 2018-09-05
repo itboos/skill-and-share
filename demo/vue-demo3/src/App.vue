@@ -20,8 +20,8 @@ export default {
   },
   data() {
     return {
-      CGI: 'http://api.live.nagezan.net',
-      CGI2: 'http://api2.zg.xiaoyoureliao.net',
+      CGI: '',
+      CGI2: '',
       remainTime: {
         time: 0,
         h: '0',
@@ -43,7 +43,7 @@ export default {
      console.log(MD5(`lb_rljxs_1300,${timeStmp}',a2915e518ba60169f77`));
      const url = `http://live.gslb.letv.com/gslb?stream_id=${stream_id}&tag=live&ext=m3u8&sign=live_photerne&p1=0&p2=00&p3=001&splatid=1004&ostype=andriod&hwtype=un&platid=10&playid=1&termid=2&pay=0&expect=3&format=1&tm=${timeStmp}&key=${key}&jsonp=?`
      console.log(url);
-      axios.get('http://api2.live.nagezan.net/v1/c5/get_double_exp.json', {
+      axios.get('', {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       })
         .then((resp) => {

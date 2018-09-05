@@ -19,8 +19,8 @@ export default {
   },
   data(){
     return {
-      CGI:'http://api.live.nagezan.net',
-      CGI2: 'http://api2.zg.xiaoyoureliao.net',
+      CGI:'',
+      CGI2: '',
       remainTime: {
          time: 0,
          h: '0',

@@ -26,10 +26,10 @@ export default {
   data() {
     return {
       isTest: false,
-      CGI: '//apih5.nagezan.net',
+      CGI: '//',
       CGI_test: '//116.62.28.97:9012',
       loadingShow: true,
-      defaultHead: 'http://static.live.nagezan.net/live/fb284641-a4a6-4a2f-b596-abfb49ba037c.png',
+      defaultHead: 'http://static.net/live/fb284641-a4a6-4a2f-b596-abfb49ba037c.png',
     };
   },
   methods: {

@@ -1,8 +1,8 @@
 import {ajax,jsonp} from './ajax.js';
 
 export default {
-	host: 'http://api.live.nagezan.net/cgi-bin/',
-	defaultHead:'http://static.live.nagezan.net/live/fb284641-a4a6-4a2f-b596-abfb49ba037c.png',
+	host: '',
+	defaultHead:'',
 	init(){
 	  const doc = window.document;
 	  let docEl = doc.documentElement;
@@ -59,8 +59,8 @@ export default {
 	    header = list[i].headurl;
 	    list[i].head = {
 	      src: header,
-	      error: 'http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png',
-	      loading: 'http://oneshow.img.nagezan.net/live/471b9a01-d1d2-4f16-bbde-b2cc34186ee4.png'
+	      error: '',
+	      loading: ''
 	    }
 	    list[i].cnickName2=encodeURIComponent(list[i].cnickName);
 	  }
